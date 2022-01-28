@@ -143,7 +143,8 @@ cat sicknerd-output.csv | csvtomd
 
 ### sicknerd-output.csv
 
-|QUERY|URL|HTTP CODE|TITLE|CONTENT LENGTH| |---|---|--|--|--| |Dork searched|URL result from Dork|HTTP Code of
-request|HTTP Title|Content length of HTTP request|
+|QUERY|URL|HTTP CODE|TITLE|CONTENT LENGTH|
+ |---|---|--|--|--| 
+|Dork searched|URL result from Dork|HTTP Code of request|HTTP Title|Content length of HTTP request|
 
 #### *HTTP CODE, TITLE, and CONTENT LENGTH are only available if passive is disabled (default)
