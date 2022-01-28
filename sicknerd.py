@@ -176,7 +176,7 @@ class SickNerd:
         :param final: bool if final output
         :return: none
         """
-        self.output_df.to_csv('s1cknerd-output.csv', index=False)
+        self.output_df.to_csv('sicknerd-output.csv', index=False)
         if final:
             message(f'Writing {message(str(self.output_df.shape[0]), word=True)} results to file', stat=True)
             self.output_df.to_csv(os.path.join(args.output, 'sicknerd-output.csv'), index=False)
