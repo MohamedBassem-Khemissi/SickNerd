@@ -262,7 +262,7 @@ if __name__ == '__main__':
     if args.dorks:
         args.dorks = open(args.dorks, "r").read().split('\n')
 
-    if not sys.stdin.isatty() and not args.input:
+    if not sys.stdin.isatty() and args.input:
         args.input = sys.stdin
 
     try:
