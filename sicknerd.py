@@ -143,7 +143,7 @@ class SickNerd:
         Starts searching the dorks
         :return: none
         """
-        message('Starting file searches...', title=True)
+        message('Starting searches...', title=True)
         message(f'Max {message(str(args.max), word=True)} results per query', stat=True)
         shuffle(self.dorks_lst)
         for d in self.dorks_lst:
